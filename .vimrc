@@ -46,11 +46,8 @@ set number
 syntax on
 " Highlight current line
 set cursorline
-" Make tabs as wide as two spaces
-set tabstop=2
-" Show “invisible” characters
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set list
+" Make tabs as wide as four spaces
+set tabstop=4
 " Highlight searches
 set hlsearch
 " Ignore case of searches
